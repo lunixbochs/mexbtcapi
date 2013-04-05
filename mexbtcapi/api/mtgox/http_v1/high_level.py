@@ -177,4 +177,4 @@ class MtGoxParticipant(ActiveParticipant):
         return self.__repr__()
 
     def __repr__(self):
-        return "<MtGoxParticipant({0})>".format(self.currency1)
+        return "<MtGoxParticipant({0})>".format(self.market.currency1)
